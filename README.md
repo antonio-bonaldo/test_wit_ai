@@ -11,5 +11,8 @@ The bash scripts included require:
 You will also need the access key for each NLU model you intend to test. Edit [bin/wit.sh](bin/wit.sh) and put you key in the variables named *KEY_<TAG>*. You will then specify the TAG on the command line when calling the *test_wit.sh* script.
 
 ## Usage
-`./test_wit.sh recordin_name [TAG]`
+`./test_wit.sh recording_name [TAG]`
 
+### Example
+
+`./test_wit.sh this_is_a_test EN`
