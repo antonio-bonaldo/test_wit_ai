@@ -8,7 +8,7 @@ The bash scripts included require:
 * `vlc`, to convert the audio file in MP3 format
 * `curl`, to send the audio file to wit.ai service
 
-You will also need the access key for each NLU model you intend to test. Edit [bin/wit.sh](bin/wit.sh) and put you key in the variables named *KEY_<TAG>*. You will then specify the TAG on the command line when calling the *test_wit.sh* script.
+You will also need the access key for each NLU model you intend to test. Edit [bin/wit.sh](bin/wit.sh) and put you key in the variables named `KEY_<TAG>`. You will then specify the TAG on the command line when calling the *test_wit.sh* script.
 
 ## Usage
 `./test_wit.sh recording_name [TAG]`
